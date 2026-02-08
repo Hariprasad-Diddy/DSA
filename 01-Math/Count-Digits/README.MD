@@ -3,6 +3,16 @@
 ## Problem
 Given an integer `n`, count the number of digits present in it.
 
+## Example
+input = 12345
+output = 5
+
+input = 1
+output = 1
+
+input = 0
+output = 1
+
 ## Approach
 Repeatedly divide the number by 10 until it becomes 0.
 
